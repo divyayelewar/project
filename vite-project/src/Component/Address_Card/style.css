@@ -1,0 +1,103 @@
+.stack{
+    width: 100%;
+    height: auto;
+}
+.stack .left_side{
+    width: 100%;
+    height: 640px;
+    background-color: rgba(0, 255, 255, 0.114);
+    position: absolute;
+    display: flex;
+    margin: 40px;
+    padding: 60px;
+}
+.fullname input{
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+.lastname{
+    margin-left: 70px;
+}
+.lastname input{
+    display: block;
+    width: 300px;
+    height: 40px;
+   
+}
+.left_side .address{
+    position: absolute;
+    display: block;
+    margin-top: 90px;
+}
+.add input{
+    width: 670px;
+    height: 80px;
+    display: grid;
+}
+.left_side .city_state{
+    position: absolute;
+    display: flex;
+    margin-top: 220px;
+    gap: 75px;
+}
+.city input{
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+.state input{
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+.left_side .zip_num{
+    position: absolute;
+    display: flex;
+    margin-top: 310px;
+    gap: 75px;
+}
+.zipcode input{
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+.Number input{
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+.left_side .Email{
+    position: absolute;
+    display: block;
+    margin-top: 400px;
+}
+.mail input{
+    width: 670px;
+    height: 50px;
+    display: grid;
+}
+.left_side .submit{
+    position: absolute;
+    display: block;
+    margin-top: 490px;
+}
+
+.submit{
+    width: 200px;
+    height: 40px;
+    
+   
+}
+::placeholder{
+    padding-left: 10px;
+}
+
+.submit button{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 255, 0.502);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #fff;
+}
